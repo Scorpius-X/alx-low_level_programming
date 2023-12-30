@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-int main()
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 success
+ */
+int main(void)
 {
 	int n;
 
@@ -13,5 +17,5 @@ int main()
 		n--;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
