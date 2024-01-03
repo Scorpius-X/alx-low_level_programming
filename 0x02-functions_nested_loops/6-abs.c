@@ -8,16 +8,14 @@
 int _abs(int)
 {
 	int x;
-	int y;
-	int z;
+	int y = (x * (-1);
 
-	if (x < 0)
-	{
-		_putchar((x * (-1) + '0');
-				}
-				else
-				{
-				_putchar(x + '0');
-				}
-				return (0);
-				}
+			if (x < 0)
+			{
+			return (y);
+			}
+			else
+			{
+			return (x);
+			}
+			}
