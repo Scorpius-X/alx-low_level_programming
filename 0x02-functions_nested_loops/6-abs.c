@@ -2,20 +2,18 @@
 /**
  * _abs - calculates the absolute value
  *
- * Return: 0 success
+ * @n:  integer
+ *
+ * Return: always 0 success
  */
-
-int _abs(int)
+int _abs(int n)
 {
-	int x;
-	int y = (x * (-1);
-
-			if (x < 0)
-			{
-			return (y);
-			}
-			else
-			{
-			return (x);
-			}
-			}
+	if (n >= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		return (n * -1);
+	}
+}
