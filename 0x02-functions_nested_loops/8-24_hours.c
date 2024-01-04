@@ -9,12 +9,12 @@ void jack_bauer(void)
 
 	for (time = 0; time < 1440; time++)
 	{
-		putchar((time / 60) / 10 + '0');
-		putchar((time / 60) % 10 + '0');
-		putchar(':');
-		putchar((time % 60) / 10 + '0');
-		putchar((time % 60) % 10 + '0');
-		putchar('\n');
+		_putchar((time / 60) / 10 + '0');
+		_putchar((time / 60) % 10 + '0');
+		_putchar(':');
+		_putchar((time % 60) / 10 + '0');
+		_putchar((time % 60) % 10 + '0');
+		_putchar('\n');
 	}
 }
 
