@@ -12,7 +12,7 @@ int add(int x, int y)
 	int n;
 
 	n = x + y;
-	_putchar(n);
+	_putchar(n  + '0');
 
 	return (n);
 }
