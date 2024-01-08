@@ -23,7 +23,7 @@ void print_times_table(int n)
 			_putchar(' ');
 			k = i * j;
 
-			if ((n < 9) && ((k / 10) == 0))
+			if ((n > 9) && ((k / 10) == 0))
 			{
 				_putchar(' ');
 				_putchar((k % 10) + '0');
