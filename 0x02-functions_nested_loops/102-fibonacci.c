@@ -16,7 +16,7 @@ int main(void)
 
 	printf("%lu, %lu, ", i, j);
 
-	while (count <= 50)
+	while (count < 50)
 	{
 		k = i + j;
 		printf("%lu", k);
