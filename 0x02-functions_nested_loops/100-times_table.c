@@ -11,26 +11,26 @@ void print_times_table(int n)
 
 	for (i = 0; i <= n; i++)
 	{
-		putchar('0');
+		_putchar('0');
 		for (j = 1; j <= n; j++)
 		{
 			if  (n > 15 || n < 0)
 			{
 				return;
 			}
-			putchar(',');
-			putchar(' ');
+			_putchar(',');
+			_putchar(' ');
 			k = i * j;
 
 			if ((k / 10) == 0)
 			{
-				putchar(' ');
-				putchar((k / 10) + '0');
+				_putchar(' ');
+				_putchar((k / 10) + '0');
 			}
 			else
 			{
-				putchar((k / 10) + '0');
-				putchar((k % 10) + '0');
+				_putchar((k / 10) + '0');
+				_putchar((k % 10) + '0');
 			}
 		}
 		putchar('\n');
