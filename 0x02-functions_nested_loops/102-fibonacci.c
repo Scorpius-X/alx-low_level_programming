@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - prints a fibonacci
  *
@@ -8,22 +7,26 @@
 
 int main(void)
 {
-	long int i, j, k, count;
+	long int i, j, k;
+	int count;
 
 	i = 1;
 	j = 2;
+	count = 2;
+
+	printf("%lu, %lu, ", i, j);
 
 	while (count <= 50)
 	{
 		k = i + j;
-		i = j;
-		j = k;
-		printf("%ld", k);
+		printf("%lu", k);
 		if (count != 50)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		i = j;
+		j = k;
 		count++;
 	}
 	putchar('\n');
