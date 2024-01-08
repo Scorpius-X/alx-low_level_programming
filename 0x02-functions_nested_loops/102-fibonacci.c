@@ -18,7 +18,7 @@ int main(void)
 		k = i + j;
 		i = j;
 		j = k;
-		printf("%d", k);
+		printf("%ld", k);
 		if (count != 50)
 		{
 			putchar(',');
