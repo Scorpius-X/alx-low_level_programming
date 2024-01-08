@@ -2,7 +2,7 @@
 /**
  * main - prints multiples of 3 or 5 below 1024
  *
- * return: 0 always
+ * Return:Always 0
  */
 
 int main(void)
@@ -12,12 +12,12 @@ int main(void)
 
 	while (i < 1024)
 	{
-		if ((i % 3 == 0)||(i % 5 == 0))
+		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			sum+=i;
+			sum += i;
 		}
 		i++;
 	}
-	printf("%d", sum);
-	return 0;
+	printf("%d\n", sum);
+	return (0);
 }
