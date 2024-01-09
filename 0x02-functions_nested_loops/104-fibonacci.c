@@ -13,15 +13,15 @@ int main(void)
 
 	i = 1;
 	j = 2;
-	count = 3;
+	count = 2;
 
 	printf("%lu, %lu, ", i, j);
 
-	while (count <= 98)
+	while (count < 98)
 	{
 		k = i + j;
 		printf("%lu", k);
-		if (count != 98)
+		if (count != 97)
 		{
 			putchar(',');
 			putchar(' ');
