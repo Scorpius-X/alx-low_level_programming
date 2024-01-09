@@ -8,12 +8,13 @@
 
 int main(void)
 {
-	long int i, j, k;
+	unsigned long int i, j, k;
 	int count;
 
 	i = 1;
 	j = 2;
 	count = 2;
+
 
 	printf("%lu, %lu, ", i, j);
 
@@ -23,8 +24,7 @@ int main(void)
 		printf("%lu", k);
 		if (count != 97)
 		{
-			putchar(',');
-			putchar(' ');
+			printf(", ");
 		}
 		i = j;
 		j = k;
