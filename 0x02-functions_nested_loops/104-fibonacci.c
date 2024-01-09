@@ -13,7 +13,7 @@ int main(void)
 
 	i = 1;
 	j = 2;
-	count = 2;
+	count = 3;
 
 	printf("%lu, %lu, ", i, j);
 
