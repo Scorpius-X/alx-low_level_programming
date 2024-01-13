@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - prints fizz buzz
  *
- * Return:Always 0
+ * Return: Always 0
  */
 int main(void)
 {
