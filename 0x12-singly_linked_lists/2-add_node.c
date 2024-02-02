@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
-  * _strlen - gets length of the string
-  * @s: string
-  * Return: length of the string
-  */
+ * _strlen - gets length of the string
+ * @s: string
+ * Return: length of the string
+ */
 int _strlen(const char *s)
 {
 	int i;
@@ -16,11 +16,11 @@ int _strlen(const char *s)
 }
 
 /**
-  * add_node - adds new nodes to the list
-  * @head: current place in the list
-  * @str: string to add to the head
-  * Return: pointer to current position in list
-  */
+ * add_node - adds new nodes to the list
+ * @head: current place in the list
+ * @str: string to add to the head
+ * Return: pointer to current position in list
+ */
 list_t *add_node(list_t **head, const char *str)
 {
 	int i, len;
